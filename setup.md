@@ -5,7 +5,7 @@ Follow these steps to set up the Laravel project:
 ## 1. Clone the repository
 
 ```sh
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/ashujangid/sembark-task.git)
 cd sembark-task
 ```
 
@@ -51,4 +51,5 @@ npm run build
 php artisan serve
 
 ## 9. Credentials for Super Admin
+
 Please look for the database/seeders/UserSeeder.php file
