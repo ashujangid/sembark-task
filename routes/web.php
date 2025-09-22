@@ -17,9 +17,6 @@ use App\Http\Controllers\URLController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/superadmin/dashboard', [DashboardController::class, 'index'])->name('superadmin.dashboard');
