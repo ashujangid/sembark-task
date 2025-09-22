@@ -15,29 +15,35 @@ cd sembark-task
 composer install
 ```
 
-## 3. Install Node.js dependencies
+## 3. Generate the Laravel App Key
+
+```sh
+php artisan key:generate
+```
+
+## 4. Install Node.js dependencies
 
 ```sh
 npm install
 ```
 
-## 4. Configure environment variables
+## 5. Configure environment variables
 
 Edit the `.env` file and set your database credentials and other environment variables as needed.
 
-## 5. Run database migrations
+## 6. Run database migrations
 
 ```sh
 php artisan migrate
 ```
 
-## 6. Seed the database
+## 7. Seed the database
 
 ```sh
 php artisan db:seed
 ```
 
-## 7. Build frontend assets
+## 8. Build frontend assets
 
 ```sh
 npm run dev
@@ -47,9 +53,9 @@ or for production:
 npm run build
 ```
 
-## 8. Start the development server
+## 9. Start the development server
 php artisan serve
 
-## 9. Credentials for Super Admin
+## 10. Credentials for Super Admin
 
 Please look for the database/seeders/UserSeeder.php file
